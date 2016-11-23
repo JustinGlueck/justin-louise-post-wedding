@@ -1,0 +1,114 @@
+@media (min-width: 767px) {
+  .navbar {
+    padding: 10px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 288px;
+    text-align: center;
+    background-color: #FFF;
+  }
+  .navbar > {
+    .container .navbar-brand-centered, .container-fluid .navbar-brand-centered {
+      margin-left: -132px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .navbar > {
+    .container .navbar-brand-centered, .container-fluid .navbar-brand-centered {
+      margin-top: 25px;
+      margin-left: -84px;
+    }
+  }
+}
+
+.navbar-nav li {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.navbar-default {
+  .navbar-nav > li > a {
+    color: #000;
+  }
+  background-color: #fff;
+  border-color: #eee;
+}
+
+.navbar-top {
+  /*padding: 30px 20px 20px;*/
+}
+
+.navbar-brand {
+  position: absolute;
+  z-index: 99;
+  height: 50px;
+  width: 100%;
+  padding: 25px 0;
+  font-size: 18px;
+  line-height: 20px;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+}
+
+.navbar-toggle {
+  z-index: 100;
+}
+
+.navbar-brand {
+  a {
+    width: 100%;
+  }
+  img {
+    /*margin: 0 auto;*/
+    margin: 10px auto 0 auto;
+    display: block;
+  }
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+@media screen and (min-width: 992px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    width: 0;
+    padding: 25px 0;
+    font-size: 18px;
+    line-height: 20px;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+  }
+}
+
+.top-nav-collapse .navbar-brand {
+  padding: 15px 0;
+}

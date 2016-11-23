@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Louise and Justin's Wedding Website</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+    <!-- Custom CSS -->    
+    <link href="app/build/css/main.css" rel="stylesheet">
+    <link href="app/build/css/vendor.css" rel="stylesheet">
+    <link href="app/components/gallery/animated-masonry-gallery.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="app/components/gallery/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="app/components/gallery/jquery-ui-1.10.4.min.js"></script>
+    <script type="text/javascript" src="app/components/gallery/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="app/components/gallery/animated-masonry-gallery.js"></script>
+    <script type="text/javascript" src="app/components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Plugin CSS -->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    
+
+
+<!-- Navigation -->
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand navbar-brand-centered desktop" style="margin-left: -100px;"><a class="page-scroll" href="#home"><img src="app/assets/img/global/logo.png"/></a></div>
+          <div class="navbar-brand navbar-brand-centered mobile"><a class="page-scroll" href="#home"><img src="app/assets/img/global/logo_small.png"/></a></div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-top" id="navbar-brand-centered">
+          <ul class="nav navbar-nav">
+            <li><a class="page-scroll" href="#our-story">Our Story</a></li>
+            <li><a class="page-scroll" href="#wedding-films">Wedding Films</a></li>
+            <li><a class="page-scroll" href="#wedding-photos">Wedding Photos</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="page-scroll" href="#photobooth">Photobooth</a></li>
+            <li><a class="page-scroll" href="#honeymoon">Honeymoon</a></li>
+            <li><a class="page-scroll" href="http://www.louise-justin.com" target="_blank">Pre-wedding Site</a></li>               
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Home -->
+<!--     <section id="home" class="home__section full">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Full Page Image Background Carousel Header -->
+    <section id="home" class="home__section carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#home" data-slide-to="0" class="active"></li>
+            <li data-target="#home" data-slide-to="1"></li>
+            <li data-target="#home" data-slide-to="2"></li>
+            <li data-target="#home" data-slide-to="3"></li>
+            <li data-target="#home" data-slide-to="4"></li>
+            <li data-target="#home" data-slide-to="5"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill slide-one">
+                <video class="fullscreen" id="bgvid" playsinline autoplay muted loop>
+
+                <!-- <video class="fullscreen" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop> -->
+                    <!-- <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"> -->
+                    <source src="app/assets/video/justin-louise-wedding-highlights.mp4" type="video/mp4">
+                </video>
+                </div>
+                <div class="tp-dottedoverlay twoxtwo"></div>
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill slide-two"></div>
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill slide-three"></div>
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill slide-four"></div>
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill slide-five"></div>
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill slide-six"></div>
+                <div class="carousel-caption"></div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#home" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#home" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </section>
+
+<!-- Our Story -->
+    <section id="our-story">
+        <div class="our-story__section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Our Story</h2>
+                        <p class="section-subheading text-muted">The journey to where we are today has been an incredible experience. We have been lucky enough to be blessed with three beautiful healthy daughters Jessica, Sophie and Olivia.
+                        <br />As many of you already know or anyone with children will tell you it can be very rewarding and full of amazing times but also it can be stressful and not all plain sailing!
+    					</p>
+    					<p class="section-subheading text-muted">However we would not change any of this for the world and we now feel the time is right to be joined in marriage and take that final step towards completing our family.</p>
+                    </div>
+                    <div class="spacer"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="app/modules/our-story/img/landj.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>October 2007</h4>
+                                        <h4 class="subheading">Love at first sight!</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Louise and I met in 2007 by chance when we were both on seperate holidays with friends in Southern Spain. Here is the first photo of us together!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="app/modules/our-story/img/jessica.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>December 2008</h4>
+                                        <h4 class="subheading">Jessica born!</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">After we first met we kept in touch even though we lived in different parts of the country. In 2008 this led to a whilrwind romance and Jessica came along at the end of that year!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="app/modules/our-story/img/golden-gate-bridge.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2009</h4>
+                                        <h4 class="subheading">San Francisco</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">In 2009 with Jessica we spent a brief period living and working in San Franciso where my Dad lives. We had our own apartment in the Marina district of the city and I worked for a design agency, a small almost unknown company called Twitter were located next door! We had planned to remain in California however due to unforseen visa issues we had to return to the UK.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="app/modules/our-story/img/london.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2010/2011</h4>
+                                        <h4 class="subheading">Back in the UK and moving to London</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">With the unexpected return to the UK we had to restablish ourselves in England during difficult times, we briefly lived in Portsmouth and then Coventry. <br/> In late 2010, an opportunity arose to work in London and after several months commuting that lead to us moving to Kingston upon Thames area in Greater London permanently.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="app/modules/our-story/img/sophie.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>June 2012</h4>
+                                        <h4 class="subheading">Sophie born!</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">In London we finally found our feet and we over the moon to welcome our second daughter to the world in the summer of 2012.</p>
+                                    </div>
+                                </div>
+                            </li>
+                           	<li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="app/modules/our-story/img/eiffel-tower-sq.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>December 2014</h4>
+                                        <h4 class="subheading">Justin Proposes!</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">With a third baby on the way and being more settled as a family, I thought the time was right to ask Louise if she would be my wife! So we went to Paris for Louise's birthday where I proposed at the top of the Eiffel Tower.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="app/modules/our-story/img/olivia.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>February 2015</h4>
+                                        <h4 class="subheading">Olivia born</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">We like surpises and as with both Jessica and Sophie we did not find out the sex of the baby. On February 24th 2015 Louise gave birth to our third daughter Olivia, the day of my Granddad and Olivia's Great Grandad's 96th birthday!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="app/modules/our-story/img/louise-justin-2016.jpg" alt="">
+                                </div>
+                                <div class="timeline-lastentry">
+                                    <h4>We get married<br>27th August 2016!</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </section>
+
+<!-- The Proposal -->
+    <section id="wedding-films" class="wedding-films__section">
+        <div class="container">
+            <!-- Introduction Row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">The Team
+                        <br /><small>Bride &amp; Groom, Flower Girls, Bridesmaid, Ushers and Readers</small>
+                    </h1>
+                    <p>Below are some details of the Wedding Party including friends and relatives who will be helping us out on our big day!</p>
+                </div>
+            </div>
+
+            <!-- Team Members Row -->
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/lou.jpg" alt="">
+                    <h3>Louise
+                        <small>the Bride</small>
+                    </h3>
+                </div>
+                <div class="col-lg-6 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/justin2.jpg" alt="">
+                    <h3>Justin
+                        <small>the Groom</small>
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/jess.jpg" alt="">
+                    <h3>Jessica
+                        <small>Flower Girl</small>
+                    </h3>
+                    <p>Our eldest daughter Jessica who is 7 will lead the Flower Girl Team!</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/soph.jpg" alt="">
+                    <h3>Sophie
+                        <small>Flower Girl</small>
+                    </h3>
+                    <p>Our middle daughter Sophie who is 4, will take her big sister's lead and help her little sister at the same time!</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/olivia.jpg" alt="">
+                    <h3>Olivia
+                        <small>Flower Girl</small>
+                    </h3>
+                    <p>Our littlest Flower Girl and youngest daughter Olivia, who is just 18 months old will follow her big sisters' lead (we hope!)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/zoli.jpg" alt="">
+                    <h3>Zoltan
+                        <small>Best Man</small>
+                    </h3>
+                    <p>My brother Zoltan shares the role of best man and its an honour to have him with by my side! Usually based in New York but currently living in Nairobi, Zoli and his wife Manissa are travelling a long way to be with us!</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/sam.jpg" alt="">
+                    <h3>Sam
+                        <small>Best Man</small>
+                    </h3>
+                    <p>One of my oldest friends, Sam and I met at University, without him I wouldn't be here as I'm sure he might mention he once saved my life!</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/maxine.jpg" alt="">
+                    <h3>Maxine
+                        <small>Maid of Honour</small>
+                    </h3>
+                    <p>Close friend to Louise Since moving to London Louise met Maxine on her 1st job interview at the gym Louise attends they have been good friends since and both love to party!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/karl.jpg" alt="">
+                    <h3>Karl
+                        <small>Man of Honour</small>
+                    </h3>
+                    <p>Karl is Louise's oldest friend, they met in primary school and have remained close ever since. Karl is like one of the family!</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/zack.jpg" alt="">
+                    <h3>Zack
+                        <small>Usher</small>
+                    </h3>
+                    <p>My younger brother Zack is travelling all the way from San Francisco to join us and share some of his musical talents with us on the day.</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/unit.jpg" alt="">
+                    <h3>Mike "The Unit"
+                        <small>Usher</small>
+                    </h3>
+                    <p>Mike and I go back a long time now, we used to train together religiously when I lived in Bournemouth!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/allan.jpg" alt="">
+                    <h3>Allan
+                        <small>Father of the Bride</small>
+                    </h3>
+                    <p>If you wonder why Louise's father Allan is smiling its because he is giving his daughter away, and thinks its the last bill for her he'll ever have to pay... I hope so to Allan ;)</p>
+                </div>
+                <div class="col-lg-6 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/jason.jpg" alt="">
+                    <h3>Jason
+                        <small>Usher</small>
+                    </h3>
+                    <p>Louise's younger brother Jason might treat us all to a demo of some of his crazy dance moves as he is a member of a dance troupe back home, watch out!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/manissa.jpg" alt="">
+                    <h3>Manissa
+                        <small>First Bible Reading</small>
+                    </h3>
+                    <p>My sister-in-law Manissa will be travelling with her husband Zoltan from Nairobi and we are again honoured to have her deliver our first Bible reading especially having travelled such a long way!</p>
+                </div>
+                <div class="col-lg-6 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="app/modules/the-team/img/michael.jpg" alt="">
+                    <h3>Michael
+                        <small>Second Bible Reading</small>
+                    </h3>
+                    <p>My cousin Michael will be giving our second Bible reading, he just became a father for the second time recently so we are honoured to have him deliver this speech as we know only too well what it can be like with a newborn in the house!</p>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+<!-- Photos -->
+    <section id="wedding-photos" class="wedding-photos__section">
+        <div class="container">
+	        <div class="row">
+	            <div class="col-lg-12">
+	                <h1 class="page-header">Wedding Photos</h1>
+	            </div>
+	            <div id="gallery-header-center-left-title">All Galleries</div>
+	            <div id="gallery-header-center-right">
+	            	<div class="center">
+		            	<div class="gallery-header-center-right-links" id="filter-all">All</div>
+						<div class="gallery-header-center-right-links" id="filter-getting-ready">Getting Ready</div>
+						<div class="gallery-header-center-right-links" id="filter-arrival">Arrival</div>
+						<div class="gallery-header-center-right-links" id="filter-ceremony">Ceremony</div>
+						<div class="gallery-header-center-right-links" id="filter-reception">Reception</div>
+						<div class="gallery-header-center-right-links" id="filter-portraits">Portraits</div>
+						<div class="gallery-header-center-right-links" id="filter-speeches">Speeches</div>
+						<div class="gallery-header-center-right-links" id="filter-sunset">Sunset</div>
+						<div class="gallery-header-center-right-links" id="filter-entertainment">Entertainment</div>
+					</div>
+				</div>
+	        </div>
+	        <div class="row">
+	        <div id="gallery-content">
+				<div id="gallery-content-center">
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-10.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-10.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-116.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-116.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-130.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-130.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-134.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-134.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-139.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-139.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-143.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-143.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-4.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-4.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-59.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-59.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-6.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-6.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-66.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-66.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-73.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-73.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-94.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-94.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/getting-ready/JL-95.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/getting-ready/thumbs/JL-95.jpg" class="all getting-ready"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-149.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-149.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-153.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-153.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-157.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-157.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-158.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-158.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-164.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-164.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-172.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-172.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-174.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-174.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-179.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-179.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-199.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-199.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-208.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-208.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-210.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-210.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-215.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-215.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-216.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-216.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-218.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-218.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-220.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-220.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-227.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-227.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-230.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-230.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-235.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-235.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-252.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-252.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-264.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-264.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-266.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-266.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/arrival/JL-271.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/arrival/thumbs/JL-271.jpg" class="all arrival"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-293.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-293.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-299.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-299.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-304.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-304.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-309.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-309.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-313.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-313.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-317.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-317.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-321.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-321.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-323.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-323.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-329.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-329.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-333.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-333.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-338.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-338.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-346.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-346.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-348.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-348.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-374.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-374.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-382.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-382.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-386.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-386.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-391.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-391.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-402.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-402.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-410.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-410.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-414.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-414.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/ceremony/JL-433.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/ceremony/thumbs/JL-433.jpg" class="all ceremony"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-439.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-439.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-441.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-441.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-442.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-442.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-443.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-443.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-446.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-446.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-448.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-448.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-449.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-449.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-451.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-451.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-458.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-458.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-462.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-462.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-463.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-463.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-467.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-467.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-468.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-468.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-469.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-469.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-470.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-470.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-471.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-471.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-472.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-472.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-473.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-473.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-474.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-474.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-475.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-475.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-476.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-476.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-477.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-477.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-478.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-478.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-479.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-479.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-480.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-480.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-481.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-481.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-482.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-482.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-483.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-483.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-484.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-484.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-485.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-485.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-488.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-488.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-495.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-495.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-499.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-499.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-504.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-504.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-505.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-505.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-507.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-507.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-508.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-508.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-509.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-509.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-510.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-510.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-515.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-515.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-516.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-516.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-518.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-518.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-519.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-519.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-521.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-521.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-522.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-522.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-524.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-524.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-525.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-525.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-526.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-526.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-527.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-527.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-529.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-529.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-530.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-530.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-531.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-531.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-534.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-534.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-539.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-539.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/reception/JL-541.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/reception/thumbs/JL-541.jpg" class="all reception"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img//JL-542.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img//thumbs/JL-542.jpg" class="all "/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-543.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-543.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-544.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-544.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-546.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-546.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-547.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-547.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-548.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-548.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-552.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-552.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-554.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-554.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-555.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-555.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-556.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-556.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-561.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-561.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-562.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-562.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-564.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-564.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-566.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-566.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-567.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-567.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-572.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-572.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-574.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-574.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-575.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-575.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-576.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-576.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-578.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-578.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-589.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-589.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-596.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-596.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-605.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-605.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-612.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-612.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-620.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-620.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-626.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-626.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-629.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-629.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/portraits/JL-638.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/portraits/thumbs/JL-638.jpg" class="all portraits"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-740.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-740.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-741.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-741.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-743.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-743.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-744.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-744.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-748.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-748.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-749.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-749.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-751.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-751.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-752.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-752.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-755.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-755.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-760.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-760.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-767.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-767.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-787.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-787.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-797.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-797.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-803.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-803.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-808.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-808.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-809.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-809.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/speeches/JL-815.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/speeches/thumbs/JL-815.jpg" class="all speeches"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-818.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-818.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-819.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-819.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-820.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-820.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-822.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-822.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-832.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-832.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-837.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-837.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-838.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-838.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-839.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-839.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-855.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-855.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-856.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-856.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-862.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-862.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-876.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-876.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-879.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-879.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-911.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-911.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-912.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-912.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-918.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-918.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-928.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-928.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-936.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-936.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-937.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-937.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-943.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-943.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-944.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-944.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/sunset/JL-957.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/sunset/thumbs/JL-957.jpg" class="all sunset"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1009.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1009.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1010.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1010.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1011.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1011.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1015.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1015.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1017.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1017.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1024.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1024.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1037.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1037.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1038.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1038.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1041.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1041.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1042.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1042.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1044.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1044.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1053.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1053.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1059.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1059.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1060.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1060.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1064.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1064.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1070.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1070.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1078.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1078.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1080.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1080.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1084.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1084.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1096.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1096.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1099.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1099.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1109.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1109.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1112.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1112.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1116.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1116.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1117.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1117.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1121.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1121.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1124.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1124.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1129.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1129.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1137.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1137.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1139.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1139.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1145.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1145.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1156.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1156.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1164.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1164.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1176.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1176.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1182.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1182.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1184.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1184.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1190.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1190.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1191.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1191.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1194.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1194.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1195.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1195.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1198.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1198.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1212.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1212.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1218.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1218.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1223.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1223.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1229.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1229.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1230.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1230.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1232.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1232.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1233.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1233.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1234.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1234.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1235.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1235.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1236.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1236.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1237.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1237.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1238.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1238.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1240.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1240.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1241.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1241.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1242.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1242.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1243.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1243.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1246.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1246.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-1248.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-1248.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-957.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-957.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-958.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-958.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-960.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-960.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-972.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-972.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-988.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-988.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-989.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-989.jpg" class="all entertainment"/>
+					    </a>
+					
+						<a class="swipebox" href="app/modules/wedding-photos/img/entertainment/JL-991.jpg" target="_blank">
+					    	<img src="app/modules/wedding-photos/img/entertainment/thumbs/JL-991.jpg" class="all entertainment"/>
+					    </a>
+					
+			    </div>
+			</div>
+	    </div>
+    </section>
+
+<!-- The Wedding -->
+    <section id="photobooth" class="photobooth__section">
+        <div class="container">
+<!-- Page Heading -->
+	        <div class="row">
+	            <div class="col-lg-12 wedding-title">
+	                <h1>The Wedding Day 
+	                    <br /><small>27th August 2016</small>
+	                </h1>
+	            </div>
+	        </div>
+	        <!-- /.row -->
+
+	        <!-- Project One -->
+	        <div class="row">
+	            <div class="col-md-5">
+	                <a href="#" class="thumbnail">
+	                    <img class="img-responsive" src="app/modules/the-wedding/img/st-marys-church-side.jpg" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-7 description">
+	                <h3>Wedding Ceremony 1pm</h3>
+	                <h4>St Mary's Church, Long Ditton, Surrey</h4>
+	                <p>Our wedding ceremony will now begin at 1pm, at St. Mary's Church Long Ditton, the service will be led by Revd Dr Kuhan Satkunanayagam the Rector of St. Mary's Parish. This beautiful village church has a long history, the original church was even is mentioned in the Doomsday book, way back in 1086!</p>
+	                <a class="btn" href="http://www.stmaryslongditton.org.uk/" target="_blank">View website</a>
+	            </div>
+	        </div>
+	        <!-- /.row -->
+
+
+
+	        <!-- Project Two -->
+	        <div class="row">
+	            <div class="col-md-7 description">
+	                <h3>Wedding Reception<br/ ><small>Greeting, drinks and canapes from 3pm</small></h3>
+	                <h4>Gorse Hill, near Woking, Surrey</h4>
+	                <p>We recently changed our recption venue to a lovely country mansion, the Gorse Hill Hotel in the Surrey Hills. It is truly beautiful and set in 17 acres of stunning grounds.</p>
+	                <a class="btn" href="http://www.deverevenues.co.uk/en/venues/gorse-hill" target="_blank ">View website</a>
+	            </div>
+	            <div class="col-md-5">
+	                <a href="#" class="thumbnail">
+	                    <img class="img-responsive" src="app/modules/the-wedding/img/gorse-hill-jg.jpg" alt="">
+	                </a>
+	            </div>
+	        </div>
+	        <!-- /.row -->
+
+
+
+	        <!-- Project Three -->
+	        <div class="row">
+	            <div class="col-md-5">
+	                <a href="#" class="thumbnail">
+	                    <img class="img-responsive" src="app/modules/the-wedding/img/wedding-breakfast.jpg" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-7 description">
+	                <h3>Wedding Breakfast</h3>
+	                <h4>From Approximately 5pm</h4>
+	                <p>After greeting all of our guests who are attending the Wedding Breakfast (main meal) we will break with wedding tradition and begin with speeches and then the meal will follow. This is to allow for those giving the speeches to get over their nerves and actually enjoy the food! So please make sure you tuck into some canapes beforehand if you are hungry!</p>
+	               	<i><small>Speeches by Allan Dodd (Father of the bride), Justin Gluck (Groom), Karl Scrivens (Man of Honour), Sam Bunn (Best Man) and Zoltan Gluck (Best Man &amp; Brother).</small></i>
+	            </div>
+	        </div>
+	        <!-- /.row -->
+
+
+
+	        <!-- Project Four -->
+	        <div class="row">
+	            <div class="col-md-7 description">
+	                <h3>Evening Events</h3>
+	                <h4>From Approximately 7:30pm until Midnight</h4>
+	                <p>After the meal we will be cutting our wedding cake and our guests can relax in the lovely lounge area following into the disco room where our band will be waiting to perform. </p><p>The Bride and Groom will have their first dance leading the guests into the evening night of fun partying. We will have a photobooth so please make sure you get in there and take some cool/funny shots! There will be a guestbook outside of the booth for you to stick one copy of your prints inside along with a message!</p>
+	            </div>
+	            <div class="col-md-5">
+	                <a href="#" class="thumbnail">
+	                    <img class="img-responsive" src="app/modules/the-wedding/img/gorse-hill-eve.jpg" alt="">
+	                </a>
+	            </div>
+	        </div>
+	        <!-- /.row -->
+
+
+
+	        <!-- Project Five -->
+	        <div class="row">
+	            <div class="col-md-5">
+	                <a href="#" class="thumbnail">
+	                    <img class="img-responsive" src="app/modules/the-wedding/img/the-tommy-guns.jpg" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-7 description">
+	                <h3>Evening Entertainment</h3>
+	                <h4>Live Band - The Tommy Guns <br /><small>Live Sets from 8pm-11pm followed by Disco until Mindnight</small></h4>
+	                <p>The Tommy Guns are a 4 piece band and are here to make our night full of fun with their live music we are hoping you will be dancing the night away in our disco room! Check out their website for video clips of their music.</p> 
+	                <a class="btn" href="http://thetommygunsband.co.uk/" target="_blank">View Website</a>
+	            </div>
+	        </div>
+        <!-- /.row -->
+        </div>
+        </div>
+        <div class="break"></div>
+    </section>
+
+<!-- Gift Service -->
+<section id="honeymoon" class="honeymoon__section image-bg-fluid-height">
+<!--         <img class="img-responsive img-center" src="http://placehold.it/200x200&text=Logo" alt=""> -->
+</section>
+
+<section class="gift-service__content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 description">
+                <h3>Honeymoon Gift Service</h3>
+                <h4>for Dubai and the Seychelles</h4>
+                <p class="section-paragraph">Your presence at our wedding is all that we wish for, however, if you would like to give a gift, we would be grateful for a small donation towards our honeymoon.</p>
+                <p class="section-paragraph">We are off to Dubai for 3 nights followed by a trip to two different islands in the Seychelles for 11 nights in early September. You can vist our honeymoon gift service website and donate directly by clicking on the link below.</p>
+                <p class="section-paragraph"><a href="https://www.audleygiftservice.com/louise-and-justin" target="_blank">Visit website to donate</a></p>
+            </div>
+            <div class="col-md-5">
+                <a href="#" class="thumbnail">
+                    <img class="img-responsive" src="app/modules/gift-service/img/night-time-dubai.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RSVP -->
+<!-- <section id="locations" class="locations__section image-bg-fluid-height">
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Locations</h2>
+                <p> Please see the Google maps below showing the locations for both the church and our reception venue. If have any questions please email or call us.</p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Contact Us</h2>
+                <address>
+                    <abbr title="Phone">P:</abbr> (07525) 851-267
+                    <br>
+                    <abbr title="Email">E:</abbr> <a href="mailto:#">info@louise-justin.com</a>
+                </address>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="map" class="img-responsive img-center" alt=""></div>
+                <h2>St. Mary's Church</h2>
+                <address>
+                    <strong>Church Road</strong>
+                    <br>Long Ditton, Surrey KT6 5HH
+                    <br>
+                </address>
+            </div>
+            <div class="col-sm-6">
+                <div id="map2" class="img-responsive img-center" alt=""></div>
+                <h2>Gorse Hill Hotel</h2>
+                <address>
+                    <strong>Hook Heath Road</strong>                    
+                    <br>Woking, Surrey GU22 0QF
+                    <br>
+                </address>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+  function initMap() {
+    var mapDiv = document.getElementById('map');
+    var map = new google.maps.Map(mapDiv, {
+        center: {lat: 51.3803589, lng: -0.3155662},
+        zoom: 16
+    });
+    var mapDiv2 = document.getElementById('map2');
+    var map2 = new google.maps.Map(mapDiv2, {
+        center: {lat: 51.3009872, lng: -0.5970133},
+        zoom: 17
+    });
+  }
+</script>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGgIcOb2wAGk2eY7HaFUeCTRoUAFcV7BM&callback=initMap" async defer></script> -->
+
+
+
+<script type="text/javascript" id="app" src="app/components/requirejs/require.js" data-main="app/modules/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.photobooth__section { @include section-spacing(150px); 
+
+.wedding-title {
+	margin: 0 auto 50px auto;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+.img-responsive {
+	// border-radius: 8px;
+}
+
+.container {
+	padding-bottom: 30px;
+}
+
+.description {
+	@include desktop {
+	margin-top: 40px;
+}
+}
+
+}

@@ -1,0 +1,25 @@
+@import '../../components/bootstrap-sass/assets/stylesheets/bootstrap',
+'global/vars',
+'global/mixins',
+'global/navbar',
+'global/reset',
+'global/decorators',
+'../../modules/full-slider/full-slider',
+'../../modules/honeymoon/honeymoon',
+'../../modules/home/home',
+'../../modules/our-story/our-story',
+'../../modules/wedding-photos/wedding-photos',
+'../../modules/contact-us/contact-us',
+'../../modules/wedding-films/wedding-films',
+'../../modules/photobooth/photobooth',
+'../../modules/locations/locations';
+
+body {
+    font-family: $font-default;
+    font-size: $font-default-size;
+    // background-color: #f5f8fa;
+}
+
+.page-header {
+	border-bottom: none;
+}

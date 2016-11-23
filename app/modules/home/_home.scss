@@ -1,0 +1,53 @@
+.home__section {
+    @include section-spacing(150px);
+
+    padding-top: 0;
+}
+
+.slide-one {
+    // background: url("../../modules/home/img/J&L-28.jpg") no-repeat center;
+    // background-size: cover;
+}
+
+.slide-two {
+    background: url("../../modules/home/img/J&L-35.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.slide-three {
+    background: url("../../modules/home/img/J&L-16.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.slide-four {
+    background: url("../../modules/home/img/J&L-1650.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.slide-five {
+    background: url("../../modules/home/img/J&L-71.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.slide-six {
+    background: url("../../modules/home/img/home-image1.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.tp-dottedoverlay                       {   background-repeat:repeat;width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:3}
+.tp-dottedoverlay.twoxtwo               {   background:url(../../assets/img/global/grid.png);}
+// .tp-dottedoverlay.twoxtwowhite          {   background:url(../assets/gridtile_white.png)}
+// .tp-dottedoverlay.threexthree           {   background:url(../assets/gridtile_3x3.png)}
+// .tp-dottedoverlay.threexthreewhite      {   background:url(../assets/gridtile_3x3_white.png)}
+
+video.fullscreen { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
