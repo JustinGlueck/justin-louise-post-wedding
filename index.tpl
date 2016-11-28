@@ -56,7 +56,7 @@
 {% include "app/modules/honeymoon/honeymoon.tpl" %}
 
 <!-- RSVP -->
-<!-- {% include "app/modules/locations/locations.tpl" %} -->
+{% include "app/modules/locations/locations.tpl" %}
 
 {% endblock %}
 
