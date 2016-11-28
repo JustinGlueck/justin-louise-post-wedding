@@ -16,11 +16,11 @@
     <link href="app/build/css/main.css" rel="stylesheet">
     <link href="app/build/css/vendor.css" rel="stylesheet">
     <link href="app/components/gallery/animated-masonry-gallery.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="app/components/gallery/jquery-2.0.2.min.js"></script>
+<!--     <script type="text/javascript" src="app/components/gallery/jquery-2.0.2.min.js"></script>
     <script type="text/javascript" src="app/components/gallery/jquery-ui-1.10.4.min.js"></script>
-    <script type="text/javascript" src="app/components/gallery/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="app/components/gallery/animated-masonry-gallery.js"></script>
-    <script type="text/javascript" src="app/components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app/components/gallery/jquery.isotope.min.js"></script> -->
+<!--     <script type="text/javascript" src="app/components/gallery/animated-masonry-gallery.js"></script> -->
+    <!-- <script type="text/javascript" src="app/components/bootstrap/dist/js/bootstrap.min.js"></script> -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

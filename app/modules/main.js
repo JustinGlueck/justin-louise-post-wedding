@@ -1,6 +1,9 @@
 require.config({
     paths: {
         jquery: '../components/jquery/dist/jquery.min',
+        jqueryUI: '../components/jquery-ui/jquery-ui',
+        isotope: '../components/isotope/isotope.pkgd.min',
+        bridget: '../components/jquery-bridget/jquery-bridget',
         bootstrap: '../components/bootstrap/dist/js/bootstrap.min',
         easing: '../components/jquery.easing/js/jquery.easing.min',
         domReady: '../components/domReady/domReady',
@@ -11,6 +14,7 @@ require.config({
         weddingPhotos: '../modules/wedding-photos/wedding-photos'
     },
     shim: {
+        'isotope': ['jquery'],
         "bootstrap": ["jquery"],
         "easing": ["jquery"],
         "swipeBox": ["jquery"],
@@ -18,11 +22,12 @@ require.config({
     }
 });
 
-require(['domReady', 'swipeBox', 'scrollingNav', 'fullSlider', 'ourStory', 'weddingPhotos'], function(domReady, swipeBox, scrollingNav, fullSlider, ourStory, weddingPhotos) {
-    domReady(function() {
-        scrollingNav.init();
-        fullSlider.init();
-        ourStory.init();
-        weddingPhotos.init();
+require(['jquery', 'jqueryUI', 'isotope', 'bridget', 'domReady', 'swipeBox', 'scrollingNav', 'fullSlider', 'ourStory', 'weddingPhotos'],
+    function($, jqueryUI, isotope, bridget, domReady, swipeBox, scrollingNav, fullSlider, ourStory, weddingPhotos) {
+        domReady(function() {
+            scrollingNav.init();
+            fullSlider.init();
+            ourStory.init();
+            weddingPhotos.init();
+        });
     });
-});
